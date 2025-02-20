@@ -1,9 +1,8 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
+
 import { Link } from "react-router"
 import routes from "../../../utils/routes"
 import './NavMobileComponent.scss'
-export default function NavMobileComponent({ activeNavMobile, setActiveNavMobile, ...props }) {
+export default function NavMobileComponent({ activeNavMobile, setActiveNavMobile }) {
 
     return (
         <nav className={activeNavMobile ? 'nav-mobile nav-mobile_active' : 'nav-mobile'}>
