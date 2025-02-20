@@ -1,0 +1,40 @@
+@import '../../../styles/const.scss';
+
+.header {
+
+    &__body {
+        background-color: $primary_1;
+        width           : 100%;
+        padding         : 20px 0;
+    }
+
+    &__content {
+        display       : flex;
+        flex-direction: column;
+        gap           : 10px;
+    }
+
+    &__top {
+        display       : flex;
+        flex-direction: row;
+        gap           : 10px;
+    }
+
+    &__tel-link {}
+
+    &__price-link {}
+
+    &__soc-link {}
+
+    &__mail-link {
+        margin: 0 0 0 auto;
+    }
+
+    &__bottom {
+        display        : flex;
+        flex-direction : row;
+        justify-content: space-between;
+    }
+
+    &__search {}
+}

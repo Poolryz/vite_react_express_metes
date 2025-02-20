@@ -1,8 +1,10 @@
+
 import { Link } from "react-router-dom";
 import routes from "../../../utils/routes.js";
+import './NavComponent.scss'
 export default function NavComponent() {
     return (
-        <nav className="nav">
+        <nav className='nav'>
             <Link className="nav__item" to={routes.contact.getRoute()}>Контакты</Link>
             <Link className="nav__item" to={routes.login.getRoute()}>Войти</Link>
             <Link className="nav__item" to={routes.catalog.getRoute()}>Каталог</Link>

@@ -1,0 +1,13 @@
+.nav {
+    display: block;
+
+    @media (max-width:778px) {
+        display: none;
+    }
+
+    &__item {
+        &:not(:last-child) {
+            margin: 0 10px 0 0;
+        }
+    }
+}

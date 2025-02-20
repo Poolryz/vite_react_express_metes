@@ -1,0 +1,17 @@
+.nav-mobile {
+    position        : absolute;
+    z-index         : 1000;
+    height          : 100vh;
+    width           : 100%;
+    top             : 0;
+    background-color: #000000;
+    display         : none;
+
+    &__item {
+        color: #ffffff;
+    }
+
+    &_active {
+        display: block;
+    }
+}
