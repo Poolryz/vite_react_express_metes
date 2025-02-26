@@ -6,9 +6,9 @@ import LoginPage from '../../pages/LoginPage.jsx'
 import CatalogPage from '../../pages/CatalogPage.jsx'
 import DocumentsPage from '../../pages/DocumentsPage.jsx'
 import NewsPage from '../../pages/NewsPage.jsx'
-import HeaderComponent from '../components/HeaderComponent/HeaderComponent.jsx'
+import HeaderComponent from '../HeaderComponent/HeaderComponent.jsx'
 import routes from '../../utils/routes.js'
-import FooterComponent from '../components/FooterComponent/FooterComponent.jsx'
+import FooterComponent from '../FooterComponent/FooterComponent.jsx'
 import ProductPage from "../../pages/ProductPage.jsx"
 
 export default function App() {

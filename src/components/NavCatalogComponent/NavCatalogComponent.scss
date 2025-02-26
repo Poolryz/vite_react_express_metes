@@ -1,0 +1,25 @@
+.nav-catalog {
+
+    &__list {
+        position: relative;
+
+        &::after {
+            content         : '';
+            position        : absolute;
+            bottom          : 0;
+            width           : 100%;
+            height          : 2px;
+            background-color: #000000;
+        }
+    }
+
+    &__item {
+        cursor   : pointer;
+        padding  : 5px;
+        font-size: 1.25rem;
+
+        &_active {
+            color: red;
+        }
+    }
+}

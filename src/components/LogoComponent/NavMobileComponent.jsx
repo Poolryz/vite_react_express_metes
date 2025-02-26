@@ -1,6 +1,6 @@
 
 import { Link } from "react-router"
-import routes from "../../../utils/routes"
+import routes from "../../utils/routes"
 import './NavMobileComponent.scss'
 export default function NavMobileComponent({ activeNavMobile, setActiveNavMobile }) {
 
